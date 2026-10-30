@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Financial Statement Extraction (XtractFlow)</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="panel" id="panel" hidden>
+      <header class="panel-head">
+        <div>
+          <div class="panel-title">Extraction results</div>
+          <div class="panel-sub" id="panelSub"></div>
+        </div>
+        <button class="icon-btn" id="panelClose" title="Hide results">&times;</button>
+      </header>
+
+      <div class="summary" id="summary"></div>
+
+      <nav class="tabs" id="tabs">
+        <button class="tab is-active" data-tab="tables">Tables</button>
+        <button class="tab" data-tab="fields">Fields</button>
+        <button class="tab" data-tab="notes">Notes</button>
+      </nav>
+
+      <div class="panel-body" id="panelBody"></div>
+
+      <footer class="panel-foot" id="panelFoot"></footer>
+    </aside>
+
+    <main class="stage">
+      <section class="dropzone" id="dropzone">
+        <input type="file" id="file" accept=".pdf" hidden />
+        <div class="dz-inner">
+          <div class="dz-mark">PDF</div>
+          <h1>Drop a set of financial statements</h1>
+          <p>or <button class="link" id="browse">browse for a file</button></p>
+          <p class="dz-hint">Once the document is open, use <strong>Validate tables</strong> or <strong>Full extract</strong> in the viewer toolbar.</p>
+        </div>
+      </section>
+
+      <div class="viewer" id="viewer"></div>
+
+      <div class="overlay" id="overlay" hidden>
+        <div class="progress-card">
+          <div class="progress-stage" id="progressStage">Starting the extraction</div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <div class="progress-meta" id="progressMeta"></div>
+          <p class="progress-note" id="progressNote">
+            XtractFlow reads the document in several passes running in parallel.
+          </p>
+        </div>
+      </div>
+
+      <div class="toast" id="toast" hidden></div>
+    </main>
+  </div>
+
+  <!-- Nutrient Web SDK, loaded from the Nutrient CDN (same version as NUTRIENT_WEB_SDK_VERSION in app.js). -->
+  <script src="https://cdn.cloud.pspdfkit.com/pspdfkit-web@1.6.0/nutrient-viewer.js" crossorigin="anonymous"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

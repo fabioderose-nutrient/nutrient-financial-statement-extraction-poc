@@ -1,0 +1,1828 @@
+{
+  "fields": [
+    {
+      "key": "financial_year_end_date",
+      "section": "Company & Reporting Info",
+      "displayed_name": "Financial Year End Date",
+      "official_name": "Financial Year End Date",
+      "alternatives": [
+        "Reporting Period End Date",
+        "Accounting Year End",
+        "Fiscal Year End"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Reported on Cover/First page of FS",
+      "calculated": false
+    },
+    {
+      "key": "average_number_of_persons_employed",
+      "section": "Company & Reporting Info",
+      "displayed_name": "Average Number of Persons Employed",
+      "official_name": "Average Number of Persons Employed",
+      "alternatives": [
+        "Headcount",
+        "Employee Count",
+        "Employee Numbers"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "reporting_currency",
+      "section": "Company & Reporting Info",
+      "displayed_name": "Reporting Currency",
+      "official_name": "Reporting Currency",
+      "alternatives": [
+        "Functional Currency",
+        "Presentational Currency",
+        "Currency of Accounts"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "",
+      "calculated": false
+    },
+    {
+      "key": "revenue",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Revenue",
+      "official_name": "Turnover",
+      "alternatives": [
+        "Revenue",
+        "Sales",
+        "Gross Sales",
+        "Total Revenue"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "cost_of_sales",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Cost of Sales",
+      "official_name": "Cost of Sales",
+      "alternatives": [
+        "Cost of Goods Sold (COGS)",
+        "Cost of Revenue",
+        "Direct Costs"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "gross_profit",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Gross Profit / (Loss)",
+      "official_name": "Gross Profit / (Loss)",
+      "alternatives": [
+        "Gross Income",
+        "Sales Profit",
+        "Gross Profit"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L",
+      "calculated": false
+    },
+    {
+      "key": "administrative_expenses",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Administrative Expenses",
+      "official_name": "Administrative Expenses",
+      "alternatives": [
+        "Admin Expenses",
+        "G&A Expenses",
+        "Overhead Costs"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "other_operating_charges",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Other Operating Charges",
+      "official_name": "Other Operating Charges",
+      "alternatives": [
+        "Distribution Costs",
+        "Selling Expenses",
+        "Other Expenses"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "other_operating_income",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Other Operating Income",
+      "official_name": "Other Operating Income",
+      "alternatives": [
+        "Miscellaneous Income",
+        "Other Income",
+        "Fee & Commission Income"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "operating_profit",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Operating Profit / (Loss)",
+      "official_name": "Operating Profit / (Loss)",
+      "alternatives": [
+        "EBIT",
+        "Profit from Operations",
+        "Operating Income"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L",
+      "calculated": false
+    },
+    {
+      "key": "finance_costs",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Finance Costs",
+      "official_name": "Finance Costs",
+      "alternatives": [
+        "Interest Payable",
+        "Interest Expense",
+        "Borrowing Costs"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "finance_income_interest_receivable",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Finance Income / Interest Receivable",
+      "official_name": "Finance Income / Interest Receivable",
+      "alternatives": [
+        "Interest Receivable",
+        "Bank Interest Receivable",
+        "Investment Income"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "profit_on_ordinary_activities_before_taxation",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Profit / (Loss) on Ordinary Activities Before Taxation",
+      "official_name": "Profit / (Loss) on Ordinary Activities Before Taxation",
+      "alternatives": [
+        "Pre-Tax Profit",
+        "Earnings Before Tax",
+        "PBT"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L",
+      "calculated": false
+    },
+    {
+      "key": "tax_on_profit_on_ordinary_activities",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Tax on Profit on Ordinary Activities",
+      "official_name": "Tax on Profit on Ordinary Activities",
+      "alternatives": [
+        "Corporation Tax",
+        "Tax Expense",
+        "Taxation"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L / Notes",
+      "calculated": false
+    },
+    {
+      "key": "profit_for_the_financial_year",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Profit / (Loss) for the Financial Year",
+      "official_name": "Profit / (Loss) for the Financial Year",
+      "alternatives": [
+        "Profit After Tax (PAT)",
+        "Net Income",
+        "Profit from Continuing Operations After Tax"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "P&L",
+      "calculated": false
+    },
+    {
+      "key": "dividends_paid",
+      "section": "Profit & Loss Account",
+      "displayed_name": "Dividends Paid",
+      "official_name": "Dividends Paid",
+      "alternatives": [
+        "Dividends",
+        "Proposed Dividend",
+        "Distributions to Shareholders"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "NO",
+        "group": "OPTIONAL",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes (Re P&L)",
+      "calculated": false
+    },
+    {
+      "key": "tangible_fixed_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Tangible Fixed Assets",
+      "official_name": "Tangible Assets",
+      "alternatives": [
+        "Property Plant & Equipment (PP&E)",
+        "Fixed Assets",
+        "Tangible Assets"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "intangible_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Intangible Assets",
+      "official_name": "Intangible Assets",
+      "alternatives": [
+        "Goodwill",
+        "Patents & Trademarks",
+        "Development Costs"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "financial_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Financial Assets",
+      "official_name": "Financial Assets",
+      "alternatives": [
+        "Investments in Subsidiaries",
+        "Investment Assets",
+        "Other Non-Current Assets"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "total_fixed_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Total Fixed Assets",
+      "official_name": "Total Fixed Assets",
+      "alternatives": [
+        "Total Non-Current Assets",
+        "Non-Current Assets",
+        "Total Fix Assets"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "stocks",
+      "section": "Balance Sheet",
+      "displayed_name": "Stocks",
+      "official_name": "Stocks",
+      "alternatives": [
+        "Stock",
+        "Stocks & Work-in-Progress",
+        "Work in Progress (WIP)"
+      ],
+      "applicability": {
+        "micro": "OPTIONAL",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "debtors",
+      "section": "Balance Sheet",
+      "displayed_name": "Debtors",
+      "official_name": "Debtors",
+      "alternatives": [
+        "Accounts Receivable",
+        "Trade and Other Receivables",
+        "Receivables"
+      ],
+      "applicability": {
+        "micro": "OPTIONAL",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "debtors_amounts_falling_due_after_more_than_one_year",
+      "section": "Balance Sheet",
+      "displayed_name": "Debtors: Amounts Falling Due After More Than One Year",
+      "official_name": "Debtors: Amounts Falling Due After More Than One Year",
+      "alternatives": [
+        "Long-term Debtors",
+        "Non-current Receivables",
+        "Debtors due after one year"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "cash_in_hand_bank",
+      "section": "Balance Sheet",
+      "displayed_name": "Cash in hand & bank",
+      "official_name": "Cash at Bank and in Hand",
+      "alternatives": [
+        "Cash and Cash Equivalents",
+        "Bank Balances",
+        "Cash on Hand"
+      ],
+      "applicability": {
+        "micro": "OPTIONAL",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "other_current_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Other Current Assets",
+      "official_name": "Other Debtors",
+      "alternatives": [
+        "Prepayments",
+        "Accrued Income",
+        "Other Receivables"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "OPTIONAL",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "current_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Current Assets",
+      "official_name": "Current Assets",
+      "alternatives": [
+        "Total Current Assets",
+        "Short-term Assets",
+        "Liquid Assets"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "deferred_income",
+      "section": "Balance Sheet",
+      "displayed_name": "Deferred Income",
+      "official_name": "Deferred Income",
+      "alternatives": [
+        "Unearned Revenue",
+        "Deferred Revenue",
+        "Deferred Government Grants"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "accruals_and_deferred_income",
+      "section": "Balance Sheet",
+      "displayed_name": "Accruals and Deferred Income",
+      "official_name": "Accruals and Deferred Income",
+      "alternatives": [
+        "Accrued Expenses",
+        "Other Payables",
+        "Miscellaneous Current Liabilities"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "trade_creditors",
+      "section": "Balance Sheet",
+      "displayed_name": "Trade Creditors",
+      "official_name": "Trade Creditors",
+      "alternatives": [
+        "Accounts Payable",
+        "Trade Payables",
+        "Amounts Due to Suppliers"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "bank_loans_and_overdrafts",
+      "section": "Balance Sheet",
+      "displayed_name": "Bank Loans and Overdrafts (due within one year)",
+      "official_name": "Bank Loans and Overdrafts (due within one year)",
+      "alternatives": [
+        "Current Borrowings",
+        "Short-term Debt",
+        "Bank Overdraft"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "dividends_payable",
+      "section": "Balance Sheet",
+      "displayed_name": "Dividends Payable",
+      "official_name": "Dividends Payable",
+      "alternatives": [
+        "Proposed Dividends",
+        "Dividends Due",
+        "Distributions Payable"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "corporation_tax_payable",
+      "section": "Balance Sheet",
+      "displayed_name": "Corporation Tax Payable",
+      "official_name": "Corporation Tax Payable",
+      "alternatives": [
+        "Taxes Payable",
+        "VAT Payable",
+        "Tax Creditors"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "creditors_amounts_falling_due_within_one_year",
+      "section": "Balance Sheet",
+      "displayed_name": "Creditors: Amounts Falling Due Within One Year",
+      "official_name": "Creditors: Amounts Falling Due Within One Year",
+      "alternatives": [
+        "Current Liabilities",
+        "Short-term Liabilities",
+        "Total Current Liabilities"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "finance_lease_obligations",
+      "section": "Balance Sheet",
+      "displayed_name": "Finance Lease Obligations",
+      "official_name": "Finance Lease Obligations",
+      "alternatives": [
+        "Lease Liabilities",
+        "Operating Lease Liabilities",
+        "Right-of-Use Asset Liabilities"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "bank_loans",
+      "section": "Balance Sheet",
+      "displayed_name": "Bank Loans (due after one year)",
+      "official_name": "Bank Loans (due after one year)",
+      "alternatives": [
+        "Long-term Borrowings",
+        "Term Loans",
+        "Non-current Borrowings"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "creditors_amounts_falling_due_after_more_than_one_year",
+      "section": "Balance Sheet",
+      "displayed_name": "Creditors: Amounts Falling Due After More Than One Year",
+      "official_name": "Creditors: Amounts Falling Due After More Than One Year",
+      "alternatives": [
+        "Non-Current Liabilities",
+        "Long-term Liabilities",
+        "Total Long-Term Liabilities"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "net_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Net Assets",
+      "official_name": "Net Assets",
+      "alternatives": [
+        "Total Assets less Total Liabilities",
+        "Shareholders' Net Assets",
+        "Net Worth"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "called_up_share_capital",
+      "section": "Balance Sheet",
+      "displayed_name": "Called-up Share Capital",
+      "official_name": "Called-up Share Capital",
+      "alternatives": [
+        "Ordinary Share Capital",
+        "Issued Share Capital",
+        "Paid-up Equity"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "profit_and_loss_account_reserve",
+      "section": "Balance Sheet",
+      "displayed_name": "Profit and Loss Account Reserve",
+      "official_name": "Profit and Loss Account Reserve",
+      "alternatives": [
+        "Retained Earnings",
+        "Accumulated Profits",
+        "Revenue Reserves"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "revaluation_reserve",
+      "section": "Balance Sheet",
+      "displayed_name": "Revaluation Reserve",
+      "official_name": "Revaluation Reserve",
+      "alternatives": [
+        "Revaluation Surplus",
+        "Property Revaluation Reserve",
+        "Asset Revaluation Reserve"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "OPTIONAL",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet / Notes",
+      "calculated": false
+    },
+    {
+      "key": "capital_and_reserves",
+      "section": "Balance Sheet",
+      "displayed_name": "Capital and Reserves",
+      "official_name": "Capital and Reserves",
+      "alternatives": [
+        "Shareholders' Funds",
+        "Total Equity",
+        "Net Worth"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "total_assets",
+      "section": "Balance Sheet",
+      "displayed_name": "Total Assets",
+      "official_name": "Total Assets",
+      "alternatives": [
+        "Total Assets",
+        "Gross Assets",
+        "Sum of All Assets"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Balance Sheet",
+      "calculated": false
+    },
+    {
+      "key": "net_change_in_cash",
+      "section": "Cash Flow",
+      "displayed_name": "Net Change in Cash",
+      "official_name": "Net Increase / (Decrease) in Cash and Cash Equivalents",
+      "alternatives": [
+        "Net Movement in Cash",
+        "Increase in Cash",
+        "Change in Cash Balance"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Cash Flow Statement",
+      "calculated": false
+    },
+    {
+      "key": "net_cash_inflow_from_operating_and_investing_activities",
+      "section": "Cash Flow",
+      "displayed_name": "Net Cash Inflow / (Outflow) from Operating and Investing Activities",
+      "official_name": "Net Cash Inflow / (Outflow) from Operating and Investing Activities",
+      "alternatives": [
+        "Free Cash Flow",
+        "Cash from Operations and Investment",
+        "Net Operating & Investing Cash"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Cash Flow Statement",
+      "calculated": false
+    },
+    {
+      "key": "net_cash_inflow_from_financing_activities",
+      "section": "Cash Flow",
+      "displayed_name": "Net Cash Inflow / (Outflow) from Financing Activities",
+      "official_name": "Net Cash Inflow / (Outflow) from Financing Activities",
+      "alternatives": [
+        "Cash from Financing",
+        "Finance Cash Flow",
+        "Net Financing Cash Flows"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Cash Flow Statement",
+      "calculated": false
+    },
+    {
+      "key": "net_cash_inflow_from_operating_activities",
+      "section": "Cash Flow",
+      "displayed_name": "Net Cash Inflow / (Outflow) from Operating Activities",
+      "official_name": "Net Cash Inflow / (Outflow) from Operating Activities",
+      "alternatives": [
+        "Cash from Operations",
+        "Operating Cash Flow",
+        "Net Cash from Trading Activities"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Cash Flow Statement",
+      "calculated": false
+    },
+    {
+      "key": "gross_margin",
+      "section": "Ratios",
+      "displayed_name": "Gross Margin",
+      "official_name": "Gross Profit Margin",
+      "alternatives": [
+        "Gross Profit %",
+        "Gross Return",
+        "Gross Margin %"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "operating_margin",
+      "section": "Ratios",
+      "displayed_name": "Operating Margin",
+      "official_name": "Operating Profit Margin",
+      "alternatives": [
+        "EBIT Margin",
+        "Operating Return",
+        "Operating Income %"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "net_margin",
+      "section": "Ratios",
+      "displayed_name": "Net Margin",
+      "official_name": "Net Profit Margin",
+      "alternatives": [
+        "Profit After Tax Margin",
+        "Net Income %",
+        "Return on Sales"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "ebitda",
+      "section": "Ratios",
+      "displayed_name": "EBITDA",
+      "official_name": "Earnings Before Interest, Taxes, Depreciation and Amortisation",
+      "alternatives": [
+        "Operating Cash Earnings",
+        "EBITDA Value",
+        "Adjusted Operating Profit"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "ebitda_margin",
+      "section": "Ratios",
+      "displayed_name": "EBITDA Margin",
+      "official_name": "EBITDA as a Percentage of Turnover",
+      "alternatives": [
+        "EBITDA %",
+        "EBITDA Return",
+        "Normalised Profit Margin"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "return_on_equity",
+      "section": "Ratios",
+      "displayed_name": "Return on Equity (ROE)",
+      "official_name": "Return on Equity",
+      "alternatives": [
+        "Shareholder Return",
+        "Return on Net Worth",
+        "ROE"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "return_on_assets",
+      "section": "Ratios",
+      "displayed_name": "Return on Assets (ROA)",
+      "official_name": "Return on Assets",
+      "alternatives": [
+        "Return on Investment (ROI)",
+        "Asset Utilisation Return",
+        "ROA"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "return_on_capital_employed",
+      "section": "Ratios",
+      "displayed_name": "Return on Capital Employed (ROCE)",
+      "official_name": "Return on Capital Employed",
+      "alternatives": [
+        "Capital Efficiency Ratio",
+        "Return on Invested Capital",
+        "ROCE"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "return_on_net_assets",
+      "section": "Ratios",
+      "displayed_name": "Return on Net Assets (RONA)",
+      "official_name": "Return on Net Assets",
+      "alternatives": [
+        "Net Asset Return",
+        "Return on Operating Assets",
+        "RONA"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "current_ratio",
+      "section": "Ratios",
+      "displayed_name": "Current Ratio",
+      "official_name": "Current Ratio",
+      "alternatives": [
+        "Working Capital Ratio",
+        "Liquidity Ratio",
+        "Current Assets to Current Liabilities"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "quick_ratio",
+      "section": "Ratios",
+      "displayed_name": "Quick Ratio",
+      "official_name": "Quick Ratio (Acid Test)",
+      "alternatives": [
+        "Acid-Test Ratio",
+        "Liquid Ratio",
+        "Immediate Liquidity Ratio"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "net_working_capital",
+      "section": "Ratios",
+      "displayed_name": "Net Working Capital",
+      "official_name": "Net Working Capital",
+      "alternatives": [
+        "Working Capital",
+        "Liquid Capital",
+        "Current Net Assets"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "gearing_ratio",
+      "section": "Ratios",
+      "displayed_name": "Gearing Ratio",
+      "official_name": "Gearing Ratio (Debt-to-Equity)",
+      "alternatives": [
+        "Debt-to-Equity Ratio",
+        "Financial Leverage",
+        "Leverage Ratio"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "net_debt_to_equity",
+      "section": "Ratios",
+      "displayed_name": "Net Debt to Equity",
+      "official_name": "Net Debt to Equity Ratio",
+      "alternatives": [
+        "Net Leverage Ratio",
+        "Net Gearing",
+        "Adjusted Debt-to-Equity"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "debtor_days",
+      "section": "Ratios",
+      "displayed_name": "Debtor Days",
+      "official_name": "Debtor Days (Trade Receivables Days)",
+      "alternatives": [
+        "Days Sales Outstanding (DSO)",
+        "Accounts Receivable Days",
+        "Trade Debt Ratio"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "creditor_days",
+      "section": "Ratios",
+      "displayed_name": "Creditor Days",
+      "official_name": "Creditor Days (Trade Payables Days)",
+      "alternatives": [
+        "Days Payable Outstanding (DPO)",
+        "Accounts Payable Days",
+        "Payment Period"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "inventory_days",
+      "section": "Ratios",
+      "displayed_name": "Inventory Days",
+      "official_name": "Inventory Days (Stock Turnover Days)",
+      "alternatives": [
+        "Days Inventory Outstanding (DIO)",
+        "Stock Days",
+        "Stock Holding Period"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "interest_cover",
+      "section": "Ratios",
+      "displayed_name": "Interest Cover",
+      "official_name": "Interest Coverage Ratio",
+      "alternatives": [
+        "Interest Cover Ratio",
+        "Debt Service Coverage",
+        "Times Interest Earned"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Calculated (not in FS)",
+      "calculated": true
+    },
+    {
+      "key": "export_revenue",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Export Revenue",
+      "official_name": "Export Turnover",
+      "alternatives": [
+        "Export Revenue",
+        "International Sales",
+        "Exports"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "OPTIONAL",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "wages_and_salaries",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Wages and Salaries",
+      "official_name": "Wages and Salaries",
+      "alternatives": [
+        "Staff Costs",
+        "Employee Costs",
+        "Payroll Expenses"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "social_security_costs",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Social Security Costs",
+      "official_name": "Social Security Costs",
+      "alternatives": [
+        "Employer PRSI",
+        "Social Charges",
+        "Director Social Security"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "directors_remuneration",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Directors' Remuneration",
+      "official_name": "Directors' Remuneration",
+      "alternatives": [
+        "Directors' Emoluments",
+        "Directors' Fees",
+        "Executive Compensation"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "emoluments_of_highest_paid_director",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Emoluments of Highest Paid Director",
+      "official_name": "Emoluments of Highest Paid Director",
+      "alternatives": [
+        "Highest Paid Director",
+        "Highest Remunerated Director",
+        "Key Management Remuneration"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "auditor_accountant_fees",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Auditor/Accountant fees",
+      "official_name": "Auditor's Remuneration",
+      "alternatives": [
+        "Audit Fees",
+        "Statutory Audit Costs",
+        "Accounting Fees"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "professional_fees",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Professional Fees",
+      "official_name": "Professional Fees",
+      "alternatives": [
+        "Consultancy Fees",
+        "Legal & Professional Fees",
+        "Advisory Fees"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "impairment_of_fixed_assets",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Impairment of Fixed Assets",
+      "official_name": "Impairment of Fixed Assets",
+      "alternatives": [
+        "Impairment Losses",
+        "Asset Write-downs",
+        "Provisions for Impairment"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "provision_for_doubtful_debts",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Provision for Doubtful Debts",
+      "official_name": "Provision for Doubtful Debts",
+      "alternatives": [
+        "Allowance for Doubtful Accounts",
+        "Bad Debt Provision",
+        "Doubtful Debt Provision"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "write_offs_loss_on_disposal",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Write-offs / Loss on Disposal",
+      "official_name": "Write-offs / Loss on Disposal",
+      "alternatives": [
+        "Bad Debt Expense",
+        "Loss on Disposal",
+        "Impairment Charges"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "depreciation_of_tangible_assets",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Depreciation of Tangible Assets",
+      "official_name": "Depreciation of Tangible Assets",
+      "alternatives": [
+        "Depreciation Expense",
+        "Depreciation Charge",
+        "Depreciation of Tangibles"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "amortisation_of_intangible_assets",
+      "section": "Notes (Re P&L)",
+      "displayed_name": "Amortisation of Intangible Assets",
+      "official_name": "Amortisation of Intangible Assets",
+      "alternatives": [
+        "Amortisation Expense",
+        "Amortisation of Intangibles",
+        "Amortisation Charge"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "director_s_transactions",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Director’s transactions",
+      "official_name": "16",
+      "alternatives": [],
+      "applicability": {
+        "micro": "",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "appropriation_account",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Appropriation Account",
+      "official_name": "Appropriation Account",
+      "alternatives": [
+        "Distribution of Profit",
+        "Profit Appropriation",
+        "Other Appropriations"
+      ],
+      "applicability": {
+        "micro": "YES",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "deferred_income_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Deferred Income",
+      "official_name": "Deferred Income",
+      "alternatives": [
+        "Unearned Revenue",
+        "Deferred Revenue",
+        "Deferred Government Grants"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "accruals_and_deferred_income_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Accruals and Deferred Income",
+      "official_name": "Accruals and Deferred Income",
+      "alternatives": [
+        "Accrued Expenses",
+        "Other Payables",
+        "Miscellaneous Current Liabilities"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "trade_creditors_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Trade Creditors",
+      "official_name": "Trade Creditors",
+      "alternatives": [
+        "Accounts Payable",
+        "Trade Payables",
+        "Amounts Due to Suppliers"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "bank_loans_and_overdrafts_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Bank Loans and Overdrafts (due within one year)",
+      "official_name": "Bank Loans and Overdrafts (due within one year)",
+      "alternatives": [
+        "Current Borrowings",
+        "Short-term Debt",
+        "Bank Overdraft"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "dividends_payable_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Dividends Payable",
+      "official_name": "Dividends Payable",
+      "alternatives": [
+        "Proposed Dividends",
+        "Dividends Due",
+        "Distributions Payable"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "corporation_tax_payable_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Corporation Tax Payable",
+      "official_name": "Corporation Tax Payable",
+      "alternatives": [
+        "Taxes Payable",
+        "VAT Payable",
+        "Tax Creditors"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "finance_lease_obligations_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Finance Lease Obligations",
+      "official_name": "Finance Lease Obligations",
+      "alternatives": [
+        "Lease Liabilities",
+        "Operating Lease Liabilities",
+        "Right-of-Use Asset Liabilities"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "bank_loans_2",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Bank Loans (due after one year)",
+      "official_name": "Bank Loans (due after one year)",
+      "alternatives": [
+        "Long-term Borrowings",
+        "Term Loans",
+        "Non-current Borrowings"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "YES",
+        "medium": "YES",
+        "large": "YES",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    },
+    {
+      "key": "contingent_liabilities",
+      "section": "Notes (Re BS)",
+      "displayed_name": "Contingent Liabilities",
+      "official_name": "Contingent Liabilities",
+      "alternatives": [
+        "Contingencies",
+        "Off-Balance Sheet Commitments",
+        "Contingent Liability"
+      ],
+      "applicability": {
+        "micro": "NO",
+        "small": "NO",
+        "medium": "NO",
+        "large": "OPTIONAL",
+        "group": "YES",
+        "consolidated": "YES"
+      },
+      "fs_section": "Notes",
+      "calculated": false
+    }
+  ]
+}
